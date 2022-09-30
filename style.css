@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:100%;
+    width:100%;
+}
+nav{margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display:flex;
+    width: 450px;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.nav-item1{
+color:#fe6d48;
+}
+.intro-section{
+    margin-top: 90px;
+    margin-left: 40px;
+    font-family:poppins;
+}
+.left-section h3 {font-size: 32px;
+
+}
+.left-section img{
+    position: relative;
+    top: 5px;
+    height: 35px;
+}
+.left-section h1{
+    font-size: 60px;
+}
+.sub-headlines {margin-top: 30px;
+    font-size: 25px;
+    margin-left: 70px;
+
+}
+.sub-headline img{
+    background-color: #fe6d48;
+    border-radius: 50px;
+    height: 25px;
+    margin-right: 10px;
+}
+.text{
+    margin-top: 30px;
+    width:49em;
+    font-size: 11px;
+}
+.action-btns{margin-top: 50px;
+
+}
+.action-btn{border-color: #fe6d48;
+    border-radius: 30px;
+    background-color: #fe6d48;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.right-section{
+    float:right;
+}
+.headphone-div{position: relative;
+    bottom: 750px;
+    right: 190px;
+}
+.discount{
+    position: relative;
+    top: 460px;
+    right: 22px;
+    width: 120px;
+
+}
+.discount-content + img{
+    height:450px;
+}
+.discount-content{
+    position:relative;
+    top: 355px;
+    color: white;
+}
+.discount-content h4{
+    font-size: 12px;
+    position: relative;
+    left: 17px;
+    top:10px;
+}
+.discount-content h1{
+    font-size: 40px;
+}
+.dot{display:inline-block;
+    justify-content: space-between;
+    background-color: #fe6d48;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 760px;
+    right: 45px;
+    border-radius:40px ;
+    margin-left: 25px;
+}
+.dot:first-child{
+  background-color: yellow;
+    
+}
+.dot:last-child{
+    background-color: black;
+}
+.action-btn1{
+    position: relative;
+    bottom: 730px;
+    right: 40px;
+    border-color: #fe6d48;
+    border-radius: 30px;
+    background-color: #fe6d48;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
